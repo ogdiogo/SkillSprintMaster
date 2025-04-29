@@ -38,13 +38,14 @@ const Header = () => {
         
         {/* Logo centered */}
         <div className="flex justify-center py-8">
-          <div className="relative w-20 h-20 rounded-full bg-gradient-gold flex items-center justify-center text-white font-bold text-2xl shadow-lg border-4 border-[#b8860b]/30">
+          <div className="relative w-24 h-24 rounded-full bg-gradient-gold flex items-center justify-center text-white font-bold text-2xl shadow-lg border-4 border-[#b8860b]/30 overflow-hidden">
             <div className="absolute inset-0 rounded-full border-2 border-white/30"></div>
             <div className="absolute -inset-1 rounded-full border border-[#d4af37]/30"></div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-10 h-10">
-              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-              <polyline points="9 22 9 12 15 12 15 22"></polyline>
-            </svg>
+            <img 
+              src="https://i.imgur.com/YjJtEwQh.jpg" 
+              alt="Logo" 
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
         
