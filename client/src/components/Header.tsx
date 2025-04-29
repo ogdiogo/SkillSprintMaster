@@ -30,20 +30,14 @@ const Header = () => {
         {/* Desktop Navigation - Centered below logo */}
         <nav className="hidden md:flex justify-center py-3 border-t border-gray-200">
           <div className="flex space-x-12">
-            <Link href="/">
-              <a className={`font-medium uppercase tracking-wider ${isActive('/') ? 'text-primary font-semibold' : 'text-gray-700 hover:text-primary'}`}>
-                Home
-              </a>
+            <Link href="/" className={`font-medium uppercase tracking-wider ${isActive('/') ? 'text-primary font-semibold' : 'text-gray-700 hover:text-primary'}`}>
+              Home
             </Link>
-            <Link href="/about">
-              <a className={`font-medium uppercase tracking-wider ${isActive('/about') ? 'text-primary font-semibold' : 'text-gray-700 hover:text-primary'}`}>
-                Sobre Nós
-              </a>
+            <Link href="/about" className={`font-medium uppercase tracking-wider ${isActive('/about') ? 'text-primary font-semibold' : 'text-gray-700 hover:text-primary'}`}>
+              Sobre Nós
             </Link>
-            <Link href="/banking-privacy">
-              <a className={`font-medium uppercase tracking-wider ${isActive('/banking-privacy') ? 'text-primary font-semibold' : 'text-gray-700 hover:text-primary'}`}>
-                Sigilo Bancário
-              </a>
+            <Link href="/banking-privacy" className={`font-medium uppercase tracking-wider ${isActive('/banking-privacy') ? 'text-primary font-semibold' : 'text-gray-700 hover:text-primary'}`}>
+              Sigilo Bancário
             </Link>
           </div>
         </nav>
@@ -67,41 +61,38 @@ const Header = () => {
       {/* Mobile menu */}
       <div className={`md:hidden bg-white border-t border-gray-200 ${isMenuOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 py-3 space-y-2">
-          <Link href="/">
-            <a 
-              className={`block px-3 py-2 text-base font-medium text-center ${
-                isActive('/') 
-                  ? 'text-primary font-semibold' 
-                  : 'text-gray-700 hover:text-primary'
-              }`}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Home
-            </a>
+          <Link 
+            href="/" 
+            className={`block px-3 py-2 text-base font-medium text-center ${
+              isActive('/') 
+                ? 'text-primary font-semibold' 
+                : 'text-gray-700 hover:text-primary'
+            }`}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Home
           </Link>
-          <Link href="/about">
-            <a 
-              className={`block px-3 py-2 text-base font-medium text-center ${
-                isActive('/about') 
-                  ? 'text-primary font-semibold' 
-                  : 'text-gray-700 hover:text-primary'
-              }`}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Sobre Nós
-            </a>
+          <Link 
+            href="/about" 
+            className={`block px-3 py-2 text-base font-medium text-center ${
+              isActive('/about') 
+                ? 'text-primary font-semibold' 
+                : 'text-gray-700 hover:text-primary'
+            }`}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Sobre Nós
           </Link>
-          <Link href="/banking-privacy">
-            <a 
-              className={`block px-3 py-2 text-base font-medium text-center ${
-                isActive('/banking-privacy') 
-                  ? 'text-primary font-semibold' 
-                  : 'text-gray-700 hover:text-primary'
-              }`}
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Sigilo Bancário
-            </a>
+          <Link 
+            href="/banking-privacy" 
+            className={`block px-3 py-2 text-base font-medium text-center ${
+              isActive('/banking-privacy') 
+                ? 'text-primary font-semibold' 
+                : 'text-gray-700 hover:text-primary'
+            }`}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Sigilo Bancário
           </Link>
         </div>
       </div>
