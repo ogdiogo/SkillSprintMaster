@@ -21,14 +21,14 @@ const Header = () => {
         <div className="flex justify-end py-3">
           <div className="hidden md:flex items-center space-x-4">
             <div className="text-right">
-              <h3 className="text-[#d4af37] text-sm font-bold uppercase tracking-wider">Contacte-nos</h3>
+              <h3 className="text-[#d4af37] text-lg font-bold uppercase tracking-wider">Contacte-nos</h3>
               <div className="flex items-center mt-1 space-x-3">
-                <div className="flex items-center text-xs text-white">
-                  <Phone className="h-3 w-3 mr-1 text-[#d4af37]" />
+                <div className="flex items-center text-sm text-white">
+                  <Phone className="h-4 w-4 mr-1 text-[#d4af37]" />
                   <span>(+351) 210 000 000</span>
                 </div>
-                <div className="flex items-center text-xs text-white">
-                  <Mail className="h-3 w-3 mr-1 text-[#d4af37]" />
+                <div className="flex items-center text-sm text-white">
+                  <Mail className="h-4 w-4 mr-1 text-[#d4af37]" />
                   <span>glosadoresassociados@gmail.com</span>
                 </div>
               </div>
@@ -38,14 +38,17 @@ const Header = () => {
         
         {/* Logo centered */}
         <div className="flex justify-center py-8">
-          <div className="relative w-24 h-24 rounded-full bg-gradient-gold flex items-center justify-center text-white font-bold text-2xl shadow-lg border-4 border-[#b8860b]/30 overflow-hidden">
-            <div className="absolute inset-0 rounded-full border-2 border-white/30"></div>
-            <div className="absolute -inset-1 rounded-full border border-[#d4af37]/30"></div>
-            <img 
-              src="https://i.imgur.com/YjJtEwQh.jpg" 
-              alt="Logo" 
-              className="w-full h-full object-cover"
-            />
+          <div className="relative">
+            <div className="p-2 bg-gradient-to-b from-[#d4af37]/20 to-[#d4af37]/5 rounded-lg border-2 border-[#d4af37]/30 shadow-lg">
+              <div className="p-1 border border-[#d4af37]/10">
+                <img 
+                  src="https://i.imgur.com/YjJtEwQh.jpg" 
+                  alt="Logo" 
+                  className="w-40 h-40 object-contain"
+                />
+              </div>
+              <div className="absolute -inset-1 border border-[#d4af37]/10 rounded-lg pointer-events-none"></div>
+            </div>
           </div>
         </div>
         
@@ -119,14 +122,14 @@ const Header = () => {
           
           {/* Contact mobile */}
           <div className="mt-4 pt-4 border-t border-[#b8860b]/30 text-center">
-            <h4 className="text-[#d4af37] text-sm font-bold uppercase tracking-wider mb-2">Contacte-nos</h4>
+            <h4 className="text-[#d4af37] text-lg font-bold uppercase tracking-wider mb-2">Contacte-nos</h4>
             <div className="flex flex-col items-center space-y-2">
-              <div className="flex items-center text-xs text-white">
-                <Phone className="h-3 w-3 mr-1 text-[#d4af37]" />
+              <div className="flex items-center text-sm text-white">
+                <Phone className="h-4 w-4 mr-1 text-[#d4af37]" />
                 <span>(+351) 210 000 000</span>
               </div>
-              <div className="flex items-center text-xs text-white">
-                <Mail className="h-3 w-3 mr-1 text-[#d4af37]" />
+              <div className="flex items-center text-sm text-white">
+                <Mail className="h-4 w-4 mr-1 text-[#d4af37]" />
                 <span>glosadoresassociados@gmail.com</span>
               </div>
             </div>
