@@ -43,29 +43,19 @@ const Advertisement = () => {
                 <div className="absolute -top-3 -right-3 bg-[#d4af37] text-[#113457] text-lg font-bold rounded-full w-16 h-16 flex items-center justify-center transform rotate-12">
                   <div className="transform -rotate-12">Nova!</div>
                 </div>
-                <div className="p-4 bg-[#f5f5dc]/10 rounded-lg border border-[#d4af37]/20">
-                  <h4 className="text-xl font-bold mb-3 text-[#d4af37]">The Leather Tote</h4>
-                  <ul className="space-y-2 mb-4">
-                    <li className="flex items-start">
-                      <span className="text-[#d4af37] mr-2">✓</span>
-                      <span className="text-[#f5f5dc]/90">Couro genuíno importado</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-[#d4af37] mr-2">✓</span>
-                      <span className="text-[#f5f5dc]/90">Alças reforçadas e confortáveis</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-[#d4af37] mr-2">✓</span>
-                      <span className="text-[#f5f5dc]/90">Bolsos com zíper seguros</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-[#d4af37] mr-2">✓</span>
-                      <span className="text-[#f5f5dc]/90">Forro interno premium</span>
-                    </li>
-                  </ul>
-                  <div className="text-center pt-3 border-t border-[#d4af37]/20">
-                    <p className="text-[#f5f5dc]/70 text-sm mb-1">Preço especial</p>
-                    <p className="text-[#d4af37] text-2xl font-bold">€ 399</p>
+                <div className="relative overflow-hidden h-80 flex items-center justify-center rounded-lg border border-[#d4af37]/30 shadow-inner">
+                  <img 
+                    src="https://i.imgur.com/Do7e1j3h.jpg" 
+                    alt="Marc Jacobs Tote Bag" 
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#113457] to-transparent py-6">
+                    <div className="text-center px-4">
+                      <p className="text-[#d4af37] text-2xl font-bold">€ 399</p>
+                      <p className="text-[#f5f5dc] text-sm font-medium">
+                        Luxo e praticidade em uma peça exclusiva
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
