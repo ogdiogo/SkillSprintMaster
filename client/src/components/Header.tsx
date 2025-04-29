@@ -15,28 +15,28 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white shadow-md">
+    <header className="bg-gradient-banking text-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Logo centered */}
-        <div className="flex justify-center py-4">
-          <div className="flex items-center">
-            <div className="w-12 h-12 rounded-md bg-primary flex items-center justify-center text-white font-bold text-xl">
+        <div className="flex justify-center py-6">
+          <div className="flex flex-col items-center">
+            <div className="w-16 h-16 rounded-md bg-gradient-gold flex items-center justify-center text-white font-bold text-2xl shadow-md">
               FB
             </div>
-            <span className="ml-2 font-bold text-2xl text-gray-800">FinanceBanco</span>
+            <span className="mt-3 font-bold text-3xl text-white">FinanceBanco</span>
           </div>
         </div>
         
         {/* Desktop Navigation - Centered below logo */}
-        <nav className="hidden md:flex justify-center py-3 border-t border-gray-200">
-          <div className="flex space-x-12">
-            <Link href="/" className={`font-medium uppercase tracking-wider ${isActive('/') ? 'text-primary font-semibold' : 'text-gray-700 hover:text-primary'}`}>
+        <nav className="hidden md:flex justify-center py-3 border-t border-amber-700/30">
+          <div className="flex space-x-16">
+            <Link href="/" className={`font-medium uppercase tracking-wider ${isActive('/') ? 'text-amber-500 font-semibold' : 'text-white hover:text-amber-300'}`}>
               Home
             </Link>
-            <Link href="/about" className={`font-medium uppercase tracking-wider ${isActive('/about') ? 'text-primary font-semibold' : 'text-gray-700 hover:text-primary'}`}>
+            <Link href="/about" className={`font-medium uppercase tracking-wider ${isActive('/about') ? 'text-amber-500 font-semibold' : 'text-white hover:text-amber-300'}`}>
               Sobre Nós
             </Link>
-            <Link href="/banking-privacy" className={`font-medium uppercase tracking-wider ${isActive('/banking-privacy') ? 'text-primary font-semibold' : 'text-gray-700 hover:text-primary'}`}>
+            <Link href="/banking-privacy" className={`font-medium uppercase tracking-wider ${isActive('/banking-privacy') ? 'text-amber-500 font-semibold' : 'text-white hover:text-amber-300'}`}>
               Sigilo Bancário
             </Link>
           </div>
@@ -46,7 +46,7 @@ const Header = () => {
         <div className="md:hidden flex justify-end py-3">
           <button 
             onClick={toggleMenu}
-            className="p-2 rounded-md text-gray-600 hover:text-gray-900 focus:outline-none"
+            className="p-2 rounded-md text-white hover:text-amber-300 focus:outline-none"
             aria-label="Toggle menu"
           >
             {isMenuOpen ? (
@@ -59,14 +59,14 @@ const Header = () => {
       </div>
       
       {/* Mobile menu */}
-      <div className={`md:hidden bg-white border-t border-gray-200 ${isMenuOpen ? 'block' : 'hidden'}`}>
+      <div className={`md:hidden bg-blue-950 border-t border-amber-700/30 ${isMenuOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 py-3 space-y-2">
           <Link 
             href="/" 
             className={`block px-3 py-2 text-base font-medium text-center ${
               isActive('/') 
-                ? 'text-primary font-semibold' 
-                : 'text-gray-700 hover:text-primary'
+                ? 'text-amber-500 font-semibold' 
+                : 'text-white hover:text-amber-300'
             }`}
             onClick={() => setIsMenuOpen(false)}
           >
@@ -76,8 +76,8 @@ const Header = () => {
             href="/about" 
             className={`block px-3 py-2 text-base font-medium text-center ${
               isActive('/about') 
-                ? 'text-primary font-semibold' 
-                : 'text-gray-700 hover:text-primary'
+                ? 'text-amber-500 font-semibold' 
+                : 'text-white hover:text-amber-300'
             }`}
             onClick={() => setIsMenuOpen(false)}
           >
@@ -87,8 +87,8 @@ const Header = () => {
             href="/banking-privacy" 
             className={`block px-3 py-2 text-base font-medium text-center ${
               isActive('/banking-privacy') 
-                ? 'text-primary font-semibold' 
-                : 'text-gray-700 hover:text-primary'
+                ? 'text-amber-500 font-semibold' 
+                : 'text-white hover:text-amber-300'
             }`}
             onClick={() => setIsMenuOpen(false)}
           >
