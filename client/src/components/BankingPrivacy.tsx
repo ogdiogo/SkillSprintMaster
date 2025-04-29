@@ -6,19 +6,13 @@ const BankingPrivacy = () => {
           <h2 className="text-4xl font-bold text-[#081b33]">Sigilo Bancário</h2>
         </div>
         
-        {/* Espaço para imagem em destaque */}
+        {/* Imagem em destaque */}
         <div className="mb-10 rounded-xl overflow-hidden shadow-lg">
-          {/* 
-            Para usar sua própria imagem:
-            1. Faça upload da imagem para a pasta 'client/public/images/'
-            2. Substitua o div abaixo por uma tag img:
-            <img src="/images/seu-arquivo.jpg" alt="Sigilo Bancário" className="w-full h-[400px] object-cover" />
-          */}
-          <div className="bg-[#081b33]/5 h-[400px] w-full flex items-center justify-center border border-[#d4af37]/20">
-            <div className="text-[#081b33]/50 text-xl font-light italic">
-              Espaço para imagem em destaque
-            </div>
-          </div>
+          <img 
+            src="https://i.imgur.com/eMn0mCOh.jpg" 
+            alt="Sigilo Bancário" 
+            className="w-full h-[400px] object-cover" 
+          />
         </div>
         
         {/* Conteúdo principal com texto corrido */}
