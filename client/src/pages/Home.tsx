@@ -12,8 +12,8 @@ const Home = () => {
       </Helmet>
       
       <ImageCarousel />
-      <Advertisement />
       <NewsSection />
+      <Advertisement />
     </>
   );
 };
