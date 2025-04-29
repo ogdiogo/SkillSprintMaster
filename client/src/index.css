@@ -13,28 +13,28 @@
   --card-foreground: 220 30% 10%;
   --border: 220 20% 90%;
   --input: 220 20% 90%;
-  --primary: 225 85% 20%;
-  --primary-foreground: 0 0% 100%;
-  --secondary: 220 45% 15%;
-  --secondary-foreground: 0 0% 100%;
+  --primary: 210 50% 25%;
+  --primary-foreground: 40 30% 90%;
+  --secondary: 210 40% 30%;
+  --secondary-foreground: 40 30% 90%;
   --accent: 41 65% 45%;
   --accent-foreground: 220 35% 15%;
   --destructive: 0 85% 45%;
-  --destructive-foreground: 0 0% 100%;
-  --ring: 225 85% 20%;
+  --destructive-foreground: 40 30% 90%;
+  --ring: 210 50% 25%;
   --radius: 0.25rem;
-  --chart-1: 225 85% 20%;
-  --chart-2: 220 45% 15%;
+  --chart-1: 210 50% 25%;
+  --chart-2: 210 40% 30%;
   --chart-3: 41 65% 45%;
   --chart-4: 329 70% 35%;
-  --chart-5: 225 85% 20%;
-  --sidebar-background: 225 85% 15%;
-  --sidebar-foreground: 0 0% 98%;
-  --sidebar-primary: 225 85% 20%;
-  --sidebar-primary-foreground: 0 0% 100%;
+  --chart-5: 210 50% 25%;
+  --sidebar-background: 210 50% 20%;
+  --sidebar-foreground: 40 30% 90%;
+  --sidebar-primary: 210 50% 25%;
+  --sidebar-primary-foreground: 40 30% 90%;
   --sidebar-accent: 41 65% 45%;
-  --sidebar-accent-foreground: 0 0% 98%;
-  --sidebar-border: 220 35% 18%;
+  --sidebar-accent-foreground: 40 30% 90%;
+  --sidebar-border: 210 35% 25%;
   --sidebar-ring: 220 20% 85%;
 }
 
@@ -68,12 +68,12 @@
 
   body {
     @apply antialiased bg-gray-50 text-gray-800;
-    font-family: 'Lora', serif;
+    font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
   h1 {
@@ -91,7 +91,7 @@
   }
   
   .nav-link {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 0.05em;
   }
 }
@@ -101,7 +101,7 @@
 }
 
 .bg-gradient-banking {
-  @apply bg-gradient-to-b from-[#081b33] via-[#0d2445] to-[#081b33];
+  @apply bg-gradient-to-b from-[#113457] via-[#1a4878] to-[#113457];
 }
 
 .bg-gradient-gold {
@@ -121,11 +121,11 @@
 }
 
 .bg-dark-blue {
-  @apply bg-[#081b33];
+  @apply bg-[#113457];
 }
 
 .text-dark-blue {
-  @apply text-[#081b33];
+  @apply text-[#113457];
 }
 
 /* Classic banking patterns and decorative elements */
