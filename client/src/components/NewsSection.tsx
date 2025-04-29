@@ -13,7 +13,7 @@ interface NewsItem {
 const newsItems: NewsItem[] = [
   {
     id: 1,
-    title: "FinanceBanco Lança Novo Programa de Investimentos Sustentáveis",
+    title: "Glosadores e Associados Lança Novo Programa de Investimentos Sustentáveis",
     date: "15 de Abril, 2025",
     description: "Conheça nosso novo programa de investimentos focado em empresas com práticas ambientais e sociais responsáveis.",
     image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
@@ -29,7 +29,7 @@ const newsItems: NewsItem[] = [
   },
   {
     id: 3,
-    title: "FinanceBanco Expande Rede de Agências no Interior",
+    title: "Glosadores e Associados Expande Rede de Agências no Interior",
     date: "18 de Março, 2025",
     description: "Inauguramos cinco novas agências no interior do país para estar mais próximos de nossos clientes em áreas em crescimento.",
     image: "https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",

@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>FinanceBanco - Soluções Bancárias Personalizadas</title>
-        <meta name="description" content="FinanceBanco oferece soluções bancárias personalizadas com segurança e excelência para indivíduos e empresas." />
+        <title>Glosadores e Associados - Soluções Bancárias Personalizadas</title>
+        <meta name="description" content="Glosadores e Associados oferece soluções bancárias personalizadas com segurança e excelência para indivíduos e empresas." />
       </Helmet>
       
       <ImageCarousel />

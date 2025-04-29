@@ -5,8 +5,8 @@ const BankingPrivacy = () => {
   return (
     <>
       <Helmet>
-        <title>Sigilo Bancário - SkillBite</title>
-        <meta name="description" content="Our commitment to protecting your financial information at SkillBite." />
+        <title>Sigilo Bancário - Glosadores e Associados</title>
+        <meta name="description" content="Nosso compromisso com a proteção da sua informação financeira nos Glosadores e Associados." />
       </Helmet>
       
       <BankingPrivacyContent />

@@ -5,8 +5,8 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>Sobre Nós - SkillBite</title>
-        <meta name="description" content="Learn about SkillBite's mission to transform professional learning for remote workers." />
+        <title>Sobre Nós - Glosadores e Associados</title>
+        <meta name="description" content="Conheça a missão e valores dos Glosadores e Associados no setor bancário." />
       </Helmet>
       
       <AboutSection />

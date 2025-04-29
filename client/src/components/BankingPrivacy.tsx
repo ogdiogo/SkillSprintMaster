@@ -25,7 +25,7 @@ const BankingPrivacy = () => {
         <div className="bg-white rounded-xl shadow-md p-8 border border-[#d4af37]/10">
           <div className="prose max-w-none text-[#081b33]/90">
             <p>
-              SkillBite takes your privacy and the security of your financial information extremely seriously. We adhere to the highest standards of data protection and banking secrecy laws to ensure your information remains confidential.
+              Glosadores e Associados trata a sua privacidade e a segurança da sua informação financeira com extrema seriedade. Aderimos aos mais altos padrões de proteção de dados e leis de sigilo bancário para garantir que suas informações permaneçam confidenciais.
             </p>
             
             <h3 className="text-xl font-bold mt-6 mb-3 text-gray-800">What is Banking Secrecy?</h3>
@@ -35,7 +35,7 @@ const BankingPrivacy = () => {
             
             <h3 className="text-xl font-bold mt-6 mb-3 text-gray-800">Our Commitment</h3>
             <p>
-              When you use SkillBite's payment features to purchase premium subscriptions or individual courses, your financial data is protected by multiple layers of security:
+              Ao utilizar os serviços dos Glosadores e Associados, seus dados financeiros são protegidos por múltiplas camadas de segurança:
             </p>
             
             <ul className="list-disc pl-5 space-y-2 mt-4">
@@ -95,9 +95,9 @@ const BankingPrivacy = () => {
             </p>
             
             <p className="mt-4 font-medium">
-              Email: privacy@skillbite.example.com<br />
-              Phone: +1 (555) 123-4567<br />
-              Address: 123 Learning Lane, Suite 400, San Francisco, CA 94103
+              Email: glosadoresassociados@gmail.com<br />
+              Phone: (+351) 210 000 000<br />
+              Endereço: Av. da Liberdade 110, 1269-046 Lisboa, Portugal
             </p>
             
             <p className="mt-6 text-sm">
