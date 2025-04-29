@@ -26,8 +26,7 @@ const aboutBlocks: AboutBlock[] = [
       "Each 5-minute lesson delivers a specific, actionable concept that you can immediately apply to your work, ensuring that learning translates to real-world results."
     ],
     image: "https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-    alt: "Our Method",
-    reversed: true
+    alt: "Our Method"
   },
   {
     id: 3,
@@ -47,8 +46,7 @@ const aboutBlocks: AboutBlock[] = [
       "Our users report increased confidence, productivity, and job satisfaction after just 30 days of using SkillBite for their professional development."
     ],
     image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-    alt: "Our Impact",
-    reversed: true
+    alt: "Our Impact"
   },
   {
     id: 5,
@@ -64,32 +62,37 @@ const aboutBlocks: AboutBlock[] = [
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-12 bg-gray-50">
+    <section id="about" className="py-12 bg-[#f8f9fa]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900">Sobre Nós</h2>
-          <p className="mt-4 text-lg text-gray-600">Learn about our mission to transform professional learning for remote workers.</p>
+          <h2 className="text-4xl font-bold text-[#081b33]">Sobre Nós</h2>
+          <p className="mt-4 text-lg text-[#081b33]/70">Conheça mais sobre quem somos e nossa missão</p>
         </div>
         
-        <div className="space-y-12">
+        <div className="space-y-16">
           {aboutBlocks.map((block) => (
             <div 
               key={block.id} 
-              className={`flex flex-col ${block.reversed ? 'md:flex-row-reverse' : 'md:flex-row'} items-center gap-8`}
+              className="flex flex-col md:flex-row items-center gap-8 bg-white rounded-xl shadow-md p-6 border border-[#d4af37]/10"
             >
+              {/* Imagem sempre à esquerda */}
               <div className="md:w-1/2">
-                <img 
-                  src={block.image} 
-                  alt={block.alt} 
-                  className="rounded-lg shadow-md" 
-                  width="600" 
-                  height="400"
-                />
+                <div className="bg-[#081b33]/5 rounded-lg overflow-hidden shadow-md border border-[#d4af37]/20">
+                  <img 
+                    src={block.image} 
+                    alt={block.alt} 
+                    className="w-full h-full object-cover" 
+                    width="600" 
+                    height="400"
+                  />
+                </div>
               </div>
+              
+              {/* Texto sempre à direita */}
               <div className="md:w-1/2">
-                <h3 className="text-2xl font-bold mb-4">{block.title}</h3>
+                <h3 className="text-2xl font-bold mb-4 text-[#081b33]">{block.title}</h3>
                 {block.content.map((paragraph, index) => (
-                  <p key={index} className="text-gray-600 mb-4">
+                  <p key={index} className="text-[#081b33]/80 mb-4">
                     {paragraph}
                   </p>
                 ))}

@@ -1,14 +1,23 @@
 const BankingPrivacy = () => {
   return (
-    <section id="privacy" className="py-12 bg-gray-50">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="privacy" className="py-12 bg-[#f8f9fa]">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-gray-900">Sigilo Bancário</h2>
-          <p className="mt-4 text-lg text-gray-600">Our commitment to protecting your financial information.</p>
+          <h2 className="text-4xl font-bold text-[#081b33]">Sigilo Bancário</h2>
         </div>
         
-        <div className="bg-white rounded-xl shadow-sm p-8">
-          <div className="prose max-w-none text-gray-600">
+        {/* Espaço para imagem em destaque */}
+        <div className="mb-10 rounded-xl overflow-hidden shadow-lg">
+          <div className="bg-[#081b33]/5 h-[400px] w-full flex items-center justify-center border border-[#d4af37]/20">
+            <div className="text-[#081b33]/50 text-xl font-light italic">
+              Espaço para imagem em destaque
+            </div>
+          </div>
+        </div>
+        
+        {/* Conteúdo principal com texto corrido */}
+        <div className="bg-white rounded-xl shadow-md p-8 border border-[#d4af37]/10">
+          <div className="prose max-w-none text-[#081b33]/90">
             <p>
               SkillBite takes your privacy and the security of your financial information extremely seriously. We adhere to the highest standards of data protection and banking secrecy laws to ensure your information remains confidential.
             </p>
