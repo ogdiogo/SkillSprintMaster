@@ -33,16 +33,12 @@ const Advertisement = () => {
                   <p className="text-[#f5f5dc]/80">Compartimentos para organização perfeita</p>
                 </div>
               </div>
-              <button className="mt-8 px-6 py-3 bg-[#d4af37] text-[#113457] font-bold rounded-md hover:bg-[#b8860b] transition-colors shadow-md">
-                Comprar Agora
-              </button>
+              <div className="mt-8"></div>
             </div>
             
             <div className="relative">
               <div className="p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-[#d4af37]/30">
-                <div className="absolute -top-3 -right-3 bg-[#d4af37] text-[#113457] text-lg font-bold rounded-full w-16 h-16 flex items-center justify-center transform rotate-12">
-                  <div className="transform -rotate-12">Nova!</div>
-                </div>
+
                 <div className="relative overflow-hidden h-80 flex items-center justify-center rounded-lg border border-[#d4af37]/30 shadow-inner">
                   <img 
                     src="https://i.imgur.com/Do7e1j3h.jpg" 
