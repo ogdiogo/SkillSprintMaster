@@ -29,7 +29,7 @@ const Header = () => {
                 </div>
                 <div className="flex items-center text-xs text-white">
                   <Mail className="h-3 w-3 mr-1 text-[#d4af37]" />
-                  <span>contacto@financebanco.pt</span>
+                  <span>glosadoresassociados@gmail.com</span>
                 </div>
               </div>
             </div>
@@ -126,7 +126,7 @@ const Header = () => {
               </div>
               <div className="flex items-center text-xs text-white">
                 <Mail className="h-3 w-3 mr-1 text-[#d4af37]" />
-                <span>contacto@financebanco.pt</span>
+                <span>glosadoresassociados@gmail.com</span>
               </div>
             </div>
           </div>
