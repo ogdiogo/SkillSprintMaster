@@ -51,13 +51,13 @@ const Header = () => {
         {/* Desktop Navigation - Centered below logo */}
         <nav className="hidden md:flex justify-center py-4 border-t border-[#b8860b]/30">
           <div className="flex space-x-16 items-center">
-            <Link href="/" className={`nav-link text-base font-medium uppercase tracking-wider ${isActive('/') ? 'text-[#d4af37] font-semibold' : 'text-white hover:text-[#d4af37]/80'}`}>
+            <Link href="/" className={`nav-link text-base font-medium uppercase tracking-wider ${isActive('/') ? 'text-white font-semibold border-b border-white/80' : 'text-white hover:text-white/80'}`}>
               Home
             </Link>
             <Link href="/banking-privacy" className={`nav-link text-2xl font-bold uppercase tracking-wider px-4 py-1 ${isActive('/banking-privacy') ? 'text-[#d4af37] border-b-2 border-[#d4af37]' : 'text-[#d4af37]/90 hover:text-[#d4af37] hover:border-b-2 hover:border-[#d4af37]/60'}`}>
               Sigilo Bancário
             </Link>
-            <Link href="/about" className={`nav-link text-base font-medium uppercase tracking-wider ${isActive('/about') ? 'text-[#d4af37] font-semibold' : 'text-white hover:text-[#d4af37]/80'}`}>
+            <Link href="/about" className={`nav-link text-base font-medium uppercase tracking-wider ${isActive('/about') ? 'text-white font-semibold border-b border-white/80' : 'text-white hover:text-white/80'}`}>
               Sobre Nós
             </Link>
           </div>
@@ -86,8 +86,8 @@ const Header = () => {
             href="/" 
             className={`nav-link block px-3 py-2 text-base font-medium text-center uppercase ${
               isActive('/') 
-                ? 'text-[#d4af37] font-semibold' 
-                : 'text-white hover:text-[#d4af37]/80'
+                ? 'text-white font-semibold border-b border-white/80 mx-auto w-4/5' 
+                : 'text-white hover:text-white/80 mx-auto w-4/5'
             }`}
             onClick={() => setIsMenuOpen(false)}
           >
@@ -108,8 +108,8 @@ const Header = () => {
             href="/about" 
             className={`nav-link block px-3 py-2 text-base font-medium text-center uppercase ${
               isActive('/about') 
-                ? 'text-[#d4af37] font-semibold' 
-                : 'text-white hover:text-[#d4af37]/80'
+                ? 'text-white font-semibold border-b border-white/80 mx-auto w-4/5' 
+                : 'text-white hover:text-white/80 mx-auto w-4/5'
             }`}
             onClick={() => setIsMenuOpen(false)}
           >
