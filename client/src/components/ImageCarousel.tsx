@@ -97,6 +97,21 @@ const ImageCarousel = () => {
           </button>
         </div>
         
+        {/* Texto em destaque no carrossel */}
+        <div className="absolute top-1/3 left-0 right-0 text-center z-10">
+          <div className="max-w-3xl mx-auto px-6">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-[#f5f5dc] drop-shadow-lg">
+              Excelência em Serviços Bancários
+            </h2>
+            <p className="text-lg md:text-xl text-[#f5f5dc]/90 mb-6 drop-shadow-lg max-w-2xl mx-auto">
+              Soluções personalizadas com a tradição e segurança que você merece
+            </p>
+            <button className="px-6 py-3 bg-[#d4af37] text-[#113457] font-bold rounded-md hover:bg-[#b8860b] transition-colors shadow-md">
+              Conheça Nossos Serviços
+            </button>
+          </div>
+        </div>
+        
         <div className="absolute bottom-8 left-0 right-0 flex justify-center space-x-3">
           {images.map((_, index) => (
             <button
