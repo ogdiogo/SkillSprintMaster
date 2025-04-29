@@ -101,19 +101,31 @@
 }
 
 .bg-gradient-banking {
-  @apply bg-gradient-to-b from-blue-950 via-blue-900 to-blue-950;
+  @apply bg-gradient-to-b from-[#081b33] via-[#0d2445] to-[#081b33];
 }
 
 .bg-gradient-gold {
-  @apply bg-gradient-to-r from-amber-700 via-amber-500 to-amber-700;
+  @apply bg-gradient-to-r from-[#b8860b] via-[#d4af37] to-[#b8860b];
 }
 
 .text-gradient-gold {
-  @apply bg-gradient-to-r from-amber-700 to-amber-500 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-[#b8860b] to-[#d4af37] bg-clip-text text-transparent;
 }
 
 .border-gold {
-  @apply border-amber-700;
+  @apply border-[#b8860b];
+}
+
+.text-gold {
+  @apply text-[#d4af37];
+}
+
+.bg-dark-blue {
+  @apply bg-[#081b33];
+}
+
+.text-dark-blue {
+  @apply text-[#081b33];
 }
 
 /* Classic banking patterns and decorative elements */
