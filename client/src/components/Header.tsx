@@ -44,7 +44,7 @@ const Header = () => {
                 <img 
                   src="https://i.imgur.com/YjJtEwQh.jpg" 
                   alt="Logo" 
-                  className="w-40 h-40 object-contain"
+                  className="w-56 h-56 object-contain"
                 />
               </div>
               <div className="absolute -inset-1 border border-[#d4af37]/10 rounded-lg pointer-events-none"></div>
