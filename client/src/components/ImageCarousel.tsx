@@ -66,7 +66,7 @@ const ImageCarousel = () => {
             <img
               src={image.src}
               alt={image.alt}
-              className="w-full h-full object-cover"
+              className={`w-full h-full object-cover ${image.id === 1 ? 'object-top' : 'object-center'}`}
             />
             {/* Overlay with gradient and classic pattern */}
             <div className="absolute inset-0 bg-gradient-to-b from-[#081b33]/40 to-[#081b33]/80"></div>
