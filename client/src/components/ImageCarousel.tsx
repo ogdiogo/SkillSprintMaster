@@ -15,8 +15,8 @@ interface CarouselImage {
 const images: CarouselImage[] = [
   {
     id: 1,
-    src: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-    alt: "Edifício de banco com arquitetura clássica"
+    src: "https://i.imgur.com/coH60Nbh.jpg",
+    alt: "Glosadores e Associados"
   },
   {
     id: 2,
