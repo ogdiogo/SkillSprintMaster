@@ -44,7 +44,8 @@ const NewsSection = () => {
         <div className="flex justify-center mb-12">
           <div className="text-center">
             <h2 className="text-3xl font-bold text-primary mb-4">Notícias e Atualizações</h2>
-            <div className="w-20 h-1 bg-gradient-gold mx-auto"></div>
+            <div className="w-32 h-0.5 bg-gradient-gold mx-auto"></div>
+            <div className="w-20 h-0.5 bg-gradient-gold mx-auto mt-1"></div>
           </div>
         </div>
         
@@ -65,8 +66,8 @@ const NewsSection = () => {
                   {item.date}
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-blue-950">{item.title}</h3>
-                <p className="text-gray-600 mb-4">{item.description}</p>
-                <a href="#" className="text-amber-700 font-medium hover:text-amber-600 inline-flex items-center">
+                <p className="text-gray-600 mb-4 leading-relaxed">{item.description}</p>
+                <a href="#" className="text-amber-700 font-medium hover:text-amber-600 inline-flex items-center font-serif">
                   Leia mais
                   <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />

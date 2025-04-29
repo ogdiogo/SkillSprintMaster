@@ -32,13 +32,13 @@ const Header = () => {
         {/* Desktop Navigation - Centered below logo */}
         <nav className="hidden md:flex justify-center py-3 border-t border-amber-700/30">
           <div className="flex space-x-16">
-            <Link href="/" className={`font-medium uppercase tracking-wider ${isActive('/') ? 'text-amber-500 font-semibold' : 'text-white hover:text-amber-300'}`}>
+            <Link href="/" className={`nav-link text-sm font-medium uppercase tracking-wider ${isActive('/') ? 'text-amber-500 font-semibold' : 'text-white hover:text-amber-300'}`}>
               Home
             </Link>
-            <Link href="/banking-privacy" className={`font-medium uppercase tracking-wider ${isActive('/banking-privacy') ? 'text-amber-500 font-semibold' : 'text-white hover:text-amber-300'}`}>
+            <Link href="/banking-privacy" className={`nav-link text-sm font-medium uppercase tracking-wider ${isActive('/banking-privacy') ? 'text-amber-500 font-semibold' : 'text-white hover:text-amber-300'}`}>
               Sigilo Bancário
             </Link>
-            <Link href="/about" className={`font-medium uppercase tracking-wider ${isActive('/about') ? 'text-amber-500 font-semibold' : 'text-white hover:text-amber-300'}`}>
+            <Link href="/about" className={`nav-link text-sm font-medium uppercase tracking-wider ${isActive('/about') ? 'text-amber-500 font-semibold' : 'text-white hover:text-amber-300'}`}>
               Sobre Nós
             </Link>
           </div>
@@ -65,7 +65,7 @@ const Header = () => {
         <div className="px-2 py-3 space-y-2">
           <Link 
             href="/" 
-            className={`block px-3 py-2 text-base font-medium text-center ${
+            className={`nav-link block px-3 py-2 text-base font-medium text-center uppercase ${
               isActive('/') 
                 ? 'text-amber-500 font-semibold' 
                 : 'text-white hover:text-amber-300'
@@ -76,7 +76,7 @@ const Header = () => {
           </Link>
           <Link 
             href="/banking-privacy" 
-            className={`block px-3 py-2 text-base font-medium text-center ${
+            className={`nav-link block px-3 py-2 text-base font-medium text-center uppercase ${
               isActive('/banking-privacy') 
                 ? 'text-amber-500 font-semibold' 
                 : 'text-white hover:text-amber-300'
@@ -87,7 +87,7 @@ const Header = () => {
           </Link>
           <Link 
             href="/about" 
-            className={`block px-3 py-2 text-base font-medium text-center ${
+            className={`nav-link block px-3 py-2 text-base font-medium text-center uppercase ${
               isActive('/about') 
                 ? 'text-amber-500 font-semibold' 
                 : 'text-white hover:text-amber-300'
