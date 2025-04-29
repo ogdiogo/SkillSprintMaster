@@ -78,6 +78,12 @@ const AboutSection = () => {
               {/* Imagem sempre à esquerda */}
               <div className="md:w-1/2">
                 <div className="bg-[#081b33]/5 rounded-lg overflow-hidden shadow-md border border-[#d4af37]/20">
+                  {/* 
+                    Para usar suas próprias imagens:
+                    1. Faça upload das imagens para a pasta 'client/public/images/'
+                    2. No arquivo AboutSection.tsx, atualize os caminhos das imagens em "aboutBlocks"
+                    3. Substitua "block.image" por algo como "/images/sobre-nos-1.jpg"
+                  */}
                   <img 
                     src={block.image} 
                     alt={block.alt} 

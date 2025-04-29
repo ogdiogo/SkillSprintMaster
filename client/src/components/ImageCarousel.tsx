@@ -7,6 +7,11 @@ interface CarouselImage {
   alt: string;
 }
 
+// Para personalizar com suas próprias imagens:
+// 1. Faça upload das imagens para a pasta 'client/public/images/'
+// 2. Altere os caminhos 'src' abaixo para algo como '/images/sua-imagem-1.jpg'
+// Por exemplo: src: "/images/banner-1.jpg"
+
 const images: CarouselImage[] = [
   {
     id: 1,
