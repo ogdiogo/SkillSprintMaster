@@ -54,7 +54,7 @@ const Header = () => {
             <Link href="/" className={`nav-link text-base font-medium uppercase tracking-wider ${isActive('/') ? 'text-[#d4af37] font-semibold' : 'text-white hover:text-[#d4af37]/80'}`}>
               Home
             </Link>
-            <Link href="/banking-privacy" className={`nav-link text-lg font-medium uppercase tracking-wider ${isActive('/banking-privacy') ? 'text-[#d4af37] font-semibold' : 'text-white hover:text-[#d4af37]/80'}`}>
+            <Link href="/banking-privacy" className={`nav-link text-xl font-semibold uppercase tracking-wider ${isActive('/banking-privacy') ? 'text-[#d4af37] font-bold' : 'text-white hover:text-[#d4af37]/80'}`}>
               Sigilo Bancário
             </Link>
             <Link href="/about" className={`nav-link text-base font-medium uppercase tracking-wider ${isActive('/about') ? 'text-[#d4af37] font-semibold' : 'text-white hover:text-[#d4af37]/80'}`}>
@@ -95,9 +95,9 @@ const Header = () => {
           </Link>
           <Link 
             href="/banking-privacy" 
-            className={`nav-link block px-3 py-2 text-lg font-medium text-center uppercase ${
+            className={`nav-link block px-3 py-2 text-xl font-semibold text-center uppercase ${
               isActive('/banking-privacy') 
-                ? 'text-[#d4af37] font-semibold' 
+                ? 'text-[#d4af37] font-bold' 
                 : 'text-white hover:text-[#d4af37]/80'
             }`}
             onClick={() => setIsMenuOpen(false)}
