@@ -32,7 +32,7 @@ const newsItems: NewsItem[] = [
     title: "Glosadores e Associados Expande Rede de Agências no Interior",
     date: "18 de Março, 2025",
     description: "Inauguramos cinco novas agências no interior do país para estar mais próximos de nossos clientes em áreas em crescimento.",
-    image: "https://images.unsplash.com/photo-1576267423445-b2e0074d68a4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    image: "https://i.imgur.com/VH0Odhoh.jpg",
     alt: "Novas Agências"
   }
 ];
