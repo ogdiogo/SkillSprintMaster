@@ -50,13 +50,7 @@ const ImageCarousel = () => {
   };
   
   return (
-    <section className="relative bg-blue-950 overflow-hidden border-b-4 border-amber-700/30">
-      {/* Ornamental header with classic bank pattern */}
-      <div className="h-4 w-full bg-gradient-gold flex">
-        {Array.from({ length: 30 }).map((_, i) => (
-          <div key={i} className="h-full w-4 border-r border-amber-800/30"></div>
-        ))}
-      </div>
+    <section className="relative bg-[#081b33] overflow-hidden border-b-4 border-[#b8860b]/30">
       
       <div className="relative w-full h-96 md:h-[500px] overflow-hidden">
         {images.map((image, index) => (
@@ -70,28 +64,28 @@ const ImageCarousel = () => {
               className="w-full h-full object-cover"
             />
             {/* Overlay with gradient and classic pattern */}
-            <div className="absolute inset-0 bg-gradient-to-b from-blue-950/40 to-blue-950/80"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-[#081b33]/40 to-[#081b33]/80"></div>
             
             {/* Classic banking ornament overlay */}
-            <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAgMTBtLTEgMGEgMSAxIDAgMCAxIDIgMGExIDEgMCAwIDEgLTIgMCIgc3Ryb2tlPSIjYTg4ODM5IiBzdHJva2Utd2lkdGg9IjAuNSIgZmlsbD0ibm9uZSIgb3BhY2l0eT0iMC4xIi8+PC9zdmc+')] opacity-30"></div>
+            <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAgMTBtLTEgMGEgMSAxIDAgMCAxIDIgMGExIDEgMCAwIDEgLTIgMCIgc3Ryb2tlPSIjZDRhZjM3IiBzdHJva2Utd2lkdGg9IjAuNSIgZmlsbD0ibm9uZSIgb3BhY2l0eT0iMC4xIi8+PC9zdmc+')] opacity-30"></div>
           </div>
         ))}
         
         {/* Ornamental side borders */}
-        <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-blue-950/80 to-transparent pointer-events-none"></div>
-        <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-blue-950/80 to-transparent pointer-events-none"></div>
+        <div className="absolute left-0 top-0 bottom-0 w-8 bg-gradient-to-r from-[#081b33]/80 to-transparent pointer-events-none"></div>
+        <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-[#081b33]/80 to-transparent pointer-events-none"></div>
         
         <div className="absolute inset-0 flex items-center justify-between px-10">
           <button 
             onClick={goToPrevious}
-            className="bg-blue-950/60 text-amber-400 p-3 rounded-full hover:bg-blue-900 transition-colors border border-amber-600/40 shadow-lg z-10"
+            className="bg-[#081b33]/60 text-[#d4af37] p-3 rounded-full hover:bg-[#0d2445] transition-colors border border-[#b8860b]/40 shadow-lg z-10"
             aria-label="Previous image"
           >
             <ChevronLeft className="h-6 w-6" />
           </button>
           <button 
             onClick={goToNext}
-            className="bg-blue-950/60 text-amber-400 p-3 rounded-full hover:bg-blue-900 transition-colors border border-amber-600/40 shadow-lg z-10"
+            className="bg-[#081b33]/60 text-[#d4af37] p-3 rounded-full hover:bg-[#0d2445] transition-colors border border-[#b8860b]/40 shadow-lg z-10"
             aria-label="Next image"
           >
             <ChevronRight className="h-6 w-6" />
@@ -103,19 +97,13 @@ const ImageCarousel = () => {
             <button
               key={index}
               onClick={() => setCurrentImageIndex(index)}
-              className={`w-3 h-3 border ${index === currentImageIndex ? 'bg-amber-500 border-amber-700' : 'bg-transparent border-amber-500'}`}
+              className={`w-3 h-3 border ${index === currentImageIndex ? 'bg-[#d4af37] border-[#b8860b]' : 'bg-transparent border-[#d4af37]'}`}
               aria-label={`Go to slide ${index + 1}`}
             ></button>
           ))}
         </div>
       </div>
-      
-      {/* Ornamental footer with classic bank pattern */}
-      <div className="h-4 w-full bg-gradient-gold flex">
-        {Array.from({ length: 30 }).map((_, i) => (
-          <div key={i} className="h-full w-4 border-r border-amber-800/30"></div>
-        ))}
-      </div>
+
     </section>
   );
 };

@@ -16,30 +16,26 @@ const Header = () => {
 
   return (
     <header className="bg-gradient-banking text-white shadow-md">
-      {/* Contact Us Section - Top Right */}
-      <div className="bg-gradient-gold text-[#081b33]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-end py-2">
-            <div className="hidden md:flex items-center space-x-4">
-              <div className="text-right">
-                <h3 className="font-playfair text-sm font-bold uppercase tracking-wider">Contacte-nos</h3>
-                <div className="flex items-center mt-1 space-x-3">
-                  <div className="flex items-center text-xs">
-                    <Phone className="h-3 w-3 mr-1" />
-                    <span>(+351) 210 000 000</span>
-                  </div>
-                  <div className="flex items-center text-xs">
-                    <Mail className="h-3 w-3 mr-1" />
-                    <span>contacto@financebanco.pt</span>
-                  </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Contact Us Section - Top Right */}
+        <div className="flex justify-end py-3">
+          <div className="hidden md:flex items-center space-x-4">
+            <div className="text-right">
+              <h3 className="text-[#d4af37] text-sm font-bold uppercase tracking-wider">Contacte-nos</h3>
+              <div className="flex items-center mt-1 space-x-3">
+                <div className="flex items-center text-xs text-white">
+                  <Phone className="h-3 w-3 mr-1 text-[#d4af37]" />
+                  <span>(+351) 210 000 000</span>
+                </div>
+                <div className="flex items-center text-xs text-white">
+                  <Mail className="h-3 w-3 mr-1 text-[#d4af37]" />
+                  <span>contacto@financebanco.pt</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
         {/* Logo centered */}
         <div className="flex justify-center py-8">
           <div className="relative w-20 h-20 rounded-full bg-gradient-gold flex items-center justify-center text-white font-bold text-2xl shadow-lg border-4 border-[#b8860b]/30">
