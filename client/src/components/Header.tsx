@@ -18,12 +18,14 @@ const Header = () => {
     <header className="bg-gradient-banking text-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Logo centered */}
-        <div className="flex justify-center py-6">
-          <div className="flex flex-col items-center">
-            <div className="w-16 h-16 rounded-md bg-gradient-gold flex items-center justify-center text-white font-bold text-2xl shadow-md">
-              FB
-            </div>
-            <span className="mt-3 font-bold text-3xl text-white">FinanceBanco</span>
+        <div className="flex justify-center py-8">
+          <div className="relative w-20 h-20 rounded-full bg-gradient-gold flex items-center justify-center text-white font-bold text-2xl shadow-lg border-4 border-amber-700/30">
+            <div className="absolute inset-0 rounded-full border-2 border-white/30"></div>
+            <div className="absolute -inset-1 rounded-full border border-amber-500/30"></div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-10 h-10">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+              <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
           </div>
         </div>
         
@@ -33,11 +35,11 @@ const Header = () => {
             <Link href="/" className={`font-medium uppercase tracking-wider ${isActive('/') ? 'text-amber-500 font-semibold' : 'text-white hover:text-amber-300'}`}>
               Home
             </Link>
-            <Link href="/about" className={`font-medium uppercase tracking-wider ${isActive('/about') ? 'text-amber-500 font-semibold' : 'text-white hover:text-amber-300'}`}>
-              Sobre Nós
-            </Link>
             <Link href="/banking-privacy" className={`font-medium uppercase tracking-wider ${isActive('/banking-privacy') ? 'text-amber-500 font-semibold' : 'text-white hover:text-amber-300'}`}>
               Sigilo Bancário
+            </Link>
+            <Link href="/about" className={`font-medium uppercase tracking-wider ${isActive('/about') ? 'text-amber-500 font-semibold' : 'text-white hover:text-amber-300'}`}>
+              Sobre Nós
             </Link>
           </div>
         </nav>
@@ -73,17 +75,6 @@ const Header = () => {
             Home
           </Link>
           <Link 
-            href="/about" 
-            className={`block px-3 py-2 text-base font-medium text-center ${
-              isActive('/about') 
-                ? 'text-amber-500 font-semibold' 
-                : 'text-white hover:text-amber-300'
-            }`}
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Sobre Nós
-          </Link>
-          <Link 
             href="/banking-privacy" 
             className={`block px-3 py-2 text-base font-medium text-center ${
               isActive('/banking-privacy') 
@@ -93,6 +84,17 @@ const Header = () => {
             onClick={() => setIsMenuOpen(false)}
           >
             Sigilo Bancário
+          </Link>
+          <Link 
+            href="/about" 
+            className={`block px-3 py-2 text-base font-medium text-center ${
+              isActive('/about') 
+                ? 'text-amber-500 font-semibold' 
+                : 'text-white hover:text-amber-300'
+            }`}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Sobre Nós
           </Link>
         </div>
       </div>

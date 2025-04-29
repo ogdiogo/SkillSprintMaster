@@ -1,6 +1,6 @@
-import ImageCarousel from "@/components/ImageCarousel";
-import NewsSection from "@/components/NewsSection";
 import { Helmet } from "react-helmet";
+import NewsSection from "../components/NewsSection";
+import ImageCarousel from "../components/ImageCarousel";
 
 const Home = () => {
   return (
