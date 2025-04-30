@@ -60,7 +60,7 @@ const teamMembers: TeamMember[] = [
       "Rodrigo Chaparro lidera a nossa transformação digital e iniciativas de inovação bancária. Formado em Engenharia Informática pelo Instituto Superior Técnico e com MBA pelo MIT.",
       "A sua experiência em fintech e banca digital tem sido essencial para desenvolver soluções tecnológicas seguras que mantêm os Glosadores e Associados na vanguarda do sector bancário, combinando tradição com inovação responsável."
     ],
-    image: "",
+    image: "C:\\Users\\Diogo\\Downloads\\file.jpeg",
     alt: "Rodrigo Chaparro"
   }
 ];
@@ -94,7 +94,7 @@ const AboutSection = () => {
                   ) : (
                     <div className="text-center p-6">
                       <div className="mb-4 text-[#d4af37]">
-                        <svg xmlns="https://quinto-canal.com/wp-content/uploads/2014/06/Secret-Story.jpg" className="mx-auto h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="mx-auto h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                         </svg>
                       </div>
