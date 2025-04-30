@@ -59,7 +59,7 @@ const Header = () => {
               Home
             </Link>
             <Link href="/banking-privacy" className={`nav-link text-2xl font-bold uppercase tracking-wider px-4 py-1 ${isActive('/banking-privacy') ? 'text-[#d4af37] border-b-2 border-[#d4af37]' : 'text-[#d4af37]/90 hover:text-[#d4af37] hover:border-b-2 hover:border-[#d4af37]/60'}`}>
-              Sigilo Bancário
+              Sigilo Bancário shiuuuuuuuuu
             </Link>
             <Link href="/about" className={`nav-link text-base font-medium uppercase tracking-wider ${isActive('/about') ? 'text-[#f5f5dc] font-semibold border-b border-[#f5f5dc]/80' : 'text-[#f5f5dc] hover:text-[#f5f5dc]/80'}`}>
               Sobre Nós
