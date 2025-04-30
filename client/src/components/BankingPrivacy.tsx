@@ -95,7 +95,7 @@ const BankingPrivacy = () => {
             </p>
             
             <p className="mt-6 text-sm">
-              Last updated: June 1, 2023
+              Last updated: April, 30th 2025
             </p>
           </div>
         </div>

@@ -60,7 +60,7 @@ const teamMembers: TeamMember[] = [
       "Rodrigo Chaparro lidera a nossa transformação digital e iniciativas de inovação bancária. Formado em Engenharia Informática pelo Instituto Superior Técnico e com MBA pelo MIT.",
       "A sua experiência em fintech e banca digital tem sido essencial para desenvolver soluções tecnológicas seguras que mantêm os Glosadores e Associados na vanguarda do sector bancário, combinando tradição com inovação responsável."
     ],
-    image: "",
+    image: "/images/miguel.jpeg",
     alt: "Rodrigo Chaparro"
   }
 ];
