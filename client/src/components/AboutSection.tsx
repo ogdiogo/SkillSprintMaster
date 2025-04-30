@@ -38,7 +38,7 @@ const teamMembers: TeamMember[] = [
       "Gabriel Asseiceiro é responsável pela estratégia de investimentos do banco desde 2012. Com formação em Matemática Aplicada pela Universidade do Porto e especialização em Mercados Financeiros pela Universidade de Chicago.",
       "A sua análise criteriosa e abordagem equilibrada entre risco e retorno tem permitido oferecer aos nossos clientes oportunidades de investimento consistentes e de qualidade superior, mesmo em períodos de volatilidade nos mercados."
     ],
-    image: "/images/gabruxas.jpeg",
+    image: "/images/gabruxas2.jpeg",
     alt: "Gabriel Asseiceiro"
   },
   {
