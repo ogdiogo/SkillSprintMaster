@@ -41,7 +41,7 @@ const Advertisement = () => {
 
                 <div className="relative overflow-hidden h-80 flex items-center justify-center rounded-lg border border-[#d4af37]/30 shadow-inner">
                   <img 
-                    src="https://i.imgur.com/Do7e1j3h.jpg" 
+                    src="https://images.rr.pt/maddie_mccann_madeleine_mccann_foto_dr2201e520_base.jpg" 
                     alt="Marc Jacobs Tote Bag" 
                     className="w-full h-full object-cover"
                   />
