@@ -20,12 +20,12 @@ const images: CarouselImage[] = [
   },
   {
     id: 2,
-    src: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu24GstUU9A-et-WKj4IFPzGLzA9HN2s5Nrg&s",
     alt: "Colóquio de negócios e planejamento financeiro"
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    src: "https://quinto-canal.com/wp-content/uploads/2014/06/Secret-Story.jpg",
     alt: "Arquitetura clássica de interiores bancários"
   }
 ];
