@@ -2,7 +2,6 @@ import { Helmet } from "react-helmet";
 import NewsSection from "../components/NewsSection";
 import ImageCarousel from "../components/ImageCarousel";
 import Advertisement from "../components/Advertisement";
-import CreditAdvertisement from "../components/CreditAdvertisement";
 
 const Home = () => {
   return (
@@ -14,7 +13,6 @@ const Home = () => {
       
       <ImageCarousel />
       <NewsSection />
-      <CreditAdvertisement />
       <Advertisement />
     </>
   );
