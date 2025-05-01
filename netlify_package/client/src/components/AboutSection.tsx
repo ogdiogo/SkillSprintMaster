@@ -67,24 +67,11 @@ const teamMembers: TeamMember[] = [
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-12 bg-gradient-to-b from-[#f8f9fa] to-[#f1f2f3]">
+    <section id="about" className="py-12 bg-[#f8f9fa]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-[#081b33]">Sobre Nós</h2>
           <p className="mt-4 text-lg text-[#081b33]/70">Conheça mais sobre quem somos e nossa missão</p>
-        </div>
-        
-        <div className="text-center mb-12">
-          <div className="relative py-3">
-            <div className="absolute inset-0 flex items-center">
-              <div className="w-full border-t border-[#d4af37]/30"></div>
-            </div>
-            <div className="relative flex justify-center">
-              <h3 className="px-8 py-2 bg-[#113457] text-2xl font-bold text-[#d4af37] uppercase tracking-wider border border-[#d4af37]/40 shadow-md">
-                Conselho de Administração
-              </h3>
-            </div>
-          </div>
         </div>
         
         <div className="space-y-16">
